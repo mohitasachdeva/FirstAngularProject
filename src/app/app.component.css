@@ -13,9 +13,13 @@
    position: relative;
    top: 1rem;
    }
+   .image{
+    align-items: center;
+   }
    .image img{
    position: relative;
     left: 35rem;
+    
    }
    .text{
     text-align: center;
