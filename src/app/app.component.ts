@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hello From Bridgelaps';
+  imgUrl = '../assets/Images/download (1).jpg'
 }
