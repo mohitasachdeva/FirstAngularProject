@@ -1,8 +1,12 @@
-<div>
-<h1> Welcome to the my first Angular app</h1>
-<h2>{{title}}</h2>
+<div class="Header">
+   <h1> First Angular App</h1>
+     <h2>{{title}}</h2>
+</div>
 
-
-<div>
+<div class="image">
     <img [src]="imgUrl" (click)="onClick($event)" alt="bridgelabzLogo" />
   </div>
+    <div class="text">
+   <input [(ngModel)] = "userName" /> 
+    </div>
+    
