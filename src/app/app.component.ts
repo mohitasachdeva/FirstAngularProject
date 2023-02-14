@@ -9,11 +9,25 @@ export class AppComponent {
   title = 'Hello From Bridgelaps';
   imgUrl = '../assets/Images/download (1).jpg'
   url="https://www.bridgelabz.com/"
+  
   onClick($event:any){
-    console.log("Button is clicked",$event);
-    window.open(this.url,"blank");
+    console.log("Image is clicked",$event);
+      window.open(this.url,"blank");
   }
-  showUrl($event:any){
-    console.log(this.imgUrl)
+
+
+
+  userName: string="";
+  nameError: string="";
+  onInput($event:any){
+    console.log("Change event occured",$event.data)
+    const nameRegex=RegExp('^[A-Z]{1}[a-z]{2,}');
+  if(nameRegex.test(this.userName))
+  {
+    this.nameError="";
+    return;
+  }
+  this.nameError="Name is Incorrect!"
   }
 }
+

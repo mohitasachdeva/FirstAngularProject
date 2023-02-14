@@ -1,9 +1,27 @@
-.h1{
-    font-size: 90px;
-   
-    background-image: linear-gradient(to left, #553c9a, #b393d3);
-    color: transparent;
-    background-clip: text;
-    
+
+.Header{
+    text-align: center;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    position: relative;
+    top: -2.5rem;
 }
+.Header h1{
+    font-size: 3rem;
+   text-align: center;
+   position: relative;
+   top: 1rem;
+   }
+   .image{
+    align-items: center;
+   }
+   .image img{
+   position: relative;
+    left: 35rem;
+    
+   }
+   .text{
+    text-align: center;
+   }
 
